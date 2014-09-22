@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.namecardv1.MainActivity" 
+    android:background="@color/white" >
+
+     <Button
+         android:id="@+id/Add"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="40dp"
+         android:onClick="Add"
+         android:text="@string/Add" />
+     <Button
+         android:id="@+id/Me"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/Add"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="40dp"
+         android:onClick="Me"
+         android:text="@string/Me" />
+      <Button
+          android:id="@+id/LookUp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/Me"
+          android:layout_marginTop="40dp"
+          android:onClick="Lookup"
+          android:text="@string/LookUp" />
+      <Button
+         android:id="@+id/Explore"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/LookUp"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="40dp"
+         android:onClick="Explore"
+         android:text="@string/Explore" />
+      
+      <Button
+         android:id="@+id/TestDB"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/Explore"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="40dp"
+         android:onClick="TestDB"
+         android:text="@string/TestDB" />
+      
+      <Button
+         android:id="@+id/Logout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/TestDB"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="40dp"
+         android:onClick="Logout"
+         android:text="@string/Logout" />
+     
+</RelativeLayout>

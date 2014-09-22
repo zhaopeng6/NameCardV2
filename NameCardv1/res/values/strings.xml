@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NameCardv1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Add">Add</string>
+    <string name="LookUp">Look Up</string>
+    <string name="Me">Me</string>
+    <string name="Explore">Explore</string>
+    <string name="TestDB">TestDB</string>
+    <string name="Logout">Logout</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_me">Me</string>
+    <string name="title_activity_design">Design</string>
+    <string name="title_activity_add">Add</string>
+    <string name="title_activity_lookup">Lookup</string>
+    <string name="title_activity_explore">Explore</string>
+    <string name="title_activity_testdb">TestDB</string>
+    <string name="Firstname">First name:  </string>
+    <string name="Lastname">Last name:  </string>
+    <string name="Company">Company:  </string>
+    <string name="City">City:  </string>
+    <string name="Title">Title:  </string>
+    <string name="Timeadded">Time added:  </string>
+    <string name="Placeadded">Place added:  </string>
+	<string name="space">      </string>
+	<string name="Search">Search</string>
+	
+</resources>
